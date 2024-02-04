@@ -1,9 +1,23 @@
 
-h1, body{
-    font-family: "Poor Story", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    color: #CD5C5C
+
+h1 {
+    font-family: "Satisfy", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 70px;
+    color: #FF4500;
+    
   }
 
-  
+
+body {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    color: #CD5C5C
+
+  }
+
+

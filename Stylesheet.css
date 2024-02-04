@@ -1,3 +1,9 @@
-h1{
-    color: blue !important
-}
+
+h1, body{
+    font-family: "Poor Story", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #CD5C5C
+  }
+
+  

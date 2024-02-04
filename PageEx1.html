@@ -14,132 +14,65 @@
     <title>Hot Or Not </title>
 </head>
 <body>
-    <h1>Titulo 1</h1>
-    <h2>Titulo 2</h2>
-    <h3>Titulo 3</h3>
-    <h4>Titulo 4</h4>
-    <h5>Titulo 5</h5>
-    <h6>Titulo 6</h6>
-
-    <!--
-        Ordered List
-    -->
-
-    <ol>
-        <h1>text</h1>
-        <h1>text</h1>
-        <h1>text</h1>
-
-
-    </ol>
-
-    <!--
-        Unordered List
-    -->
-    <ul>
-        <h1>text2</h1>
-        <h1>text2</h1>
-        <h1>text2</h1>
-        <h1>text2</h1>
-
-    </ul>
+    <h1>Give us some details about yourself! </h1>
 
     <!--
         Paragraphs
     -->
     <p>
-        he HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+        Here we need to fill out your profile to put you out there on the swipping !
     </p>
 
-    <p>
-
-        Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.
-
-
-    </p>
 
     <!--
         Tables
     -->
 
-    <table>
-
-    <thead> 
-        <tr> 
-            <td> Name </td>
-            <td> Age </td>
-            <td> Legal Charges </td>
-
-        </tr>
-
-    </thead>
-
-    <tbody> 
-        <tr>
-            <td>Seb</td>
-            <td>20</td>
-            <td>Homicide</td>
-
-
-        </tr>
-
-        <tr>
-            <td>Roco</td>
-            <td>12</td>
-            <td>Incrimination</td>
-
-        </tr>
-
-        <tr>
-
-            <td>Pablo Escobar</td>
-            <td>45</td>
-            <td colspan="2">Being too funny</td>
-
-
-        </tr>
-
-    </tbody>
-    </table>
     
     <form name="login" method="get">
         <label for = "name">Name: </label>
-        <input id="name" name = "name" type = "text" placeholder="Write your dam name", class="", value="Default">
+        <input id="name" name = "name" type = "text" placeholder="Write your dam name", class="", value="Pls tell me ">
         <br><br>
         <label for= "edad">Age: </label>
-        <input type = "number" name = "age" step="2" min = "18">
+        <input type = "number" name = "age" step="1" min = "18">
         <br><br>
-        <label for="password">Password: </label>
+        <label for="password">Your password for your new account: </label>
         <input type="password" name = "password">
         <br><br>
-        <label for = "Calendar">Calendar:</label>
-        <input type= "date"name ="calendar"> 
+    
+        <label for="Bio"> Biography: </label>
+        <input type="text" maxlength="500" cols="500" rows="500">
         <br><br>
-        <label for="Notes">Notes: </label>
-        <input type="text" maxlength="20" cols="80" rows="5">
-        <br><br>
-        <label for="State">State:</label>
-        <select name="State" id = "State">
+        <label for="Status">Status:</label>
+        <select name="Status" id = "Status">
             <option value = "" >Select: </option>
-            <option value = "BCS"> Baja California Sur </option>
-            <option value="DF">Distrito Federal</option>
-            <option value="SN">Sonora</option>
-            <option value="SIN">Sinaloa</option>
-            <option value="OAX">Oaxaca</option>
+            <option value = "Single"> Single </option>
+            <option value="Divorced">Divorced</option>
+        
         </select>
+        
+        <label for="Game">Wanting:</label>
+        <select name="Game" id = "Game">
+            <option value = "" >Select: </option>
+            <option value = "Single"> Serious </option>
+            <option value="Divorced">Casual </option>
+            <option value="Divorced">Marriage</option>
+            <option value="Divorced">Only Looking For Friends</option>
+        </select>
+
+
         <br><br>
-        <label for="Cine">Cine:</label>
+        <label for="Extroverted">Extroverted:</label>
         <input type="checkbox" unchecked>
-        <label for="Deportes">Deportes:</label>
+        <label for="Introverted">Introverted:</label>
         <input type="checkbox" unchecked>
-        <label for="Futbol">Futbol:</label>
+        <label for="Sportive">Sportive:</label>
         <input type="radio" unchecked>
         <br><br>
-        <input type="submit" name="enviar" value="Send this dam thing" >
+        <label for="Currently has a job">Currently has a job:</label>
+        <input type="radio" unchecked>
 
-
-
-
+        <input type="submit" name="enviar" value="Send this dam thing and get me dating !" >
 
 
         <!--
